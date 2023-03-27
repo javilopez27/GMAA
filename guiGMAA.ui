@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1116</width>
+    <height>874</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GMAA</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1116</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWorkspace">
+    <property name="title">
+     <string>Workspace</string>
+    </property>
+    <addaction name="actionNew_Workspace"/>
+    <addaction name="actionOpen_Workspace"/>
+    <addaction name="actionSave_WorkSpace"/>
+    <addaction name="actionSave_WorkSpace_As"/>
+    <addaction name="actionClose_WorkSpace"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrint"/>
+    <addaction name="actionPrint_Preview"/>
+    <addaction name="actionPrint_Setup"/>
+    <addaction name="actionSave_Results_to_File"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuOpen_File">
+     <property name="title">
+      <string>Open File</string>
+     </property>
+     <addaction name="actionComponent_Utilities_File"/>
+     <addaction name="actionAlt_Consequences_File"/>
+     <addaction name="actionWeights_File"/>
+    </widget>
+    <addaction name="menuOpen_File"/>
+    <addaction name="actionSave_File_As"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionView_Component_Utilities"/>
+    <addaction name="actionView_Alt_Consequences"/>
+    <addaction name="separator"/>
+    <addaction name="actionView_Alt_Classification"/>
+   </widget>
+   <widget class="QMenu" name="menuSensitivity">
+    <property name="title">
+     <string>Sensitivity Analysis</string>
+    </property>
+    <addaction name="actionWeight_Stability_Intervals"/>
+    <addaction name="actionDominance_Potential_Optimality"/>
+    <addaction name="actionSimulation_Techniques_for_SA"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionGuide"/>
+    <addaction name="actionWhat_is_GMAA"/>
+    <addaction name="separator"/>
+    <addaction name="actionCredits"/>
+    <addaction name="separator"/>
+    <addaction name="actionLogOut"/>
+   </widget>
+   <addaction name="menuWorkspace"/>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuSensitivity"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarWGMAA">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNewWorkspace"/>
+   <addaction name="actionExistingWorkspace"/>
+   <addaction name="actionSaveWorkspace"/>
+   <addaction name="separator"/>
+   <addaction name="actionViewComponentUtilities"/>
+   <addaction name="actionAltConsequences"/>
+   <addaction name="actionAltClassification"/>
+   <addaction name="separator"/>
+   <addaction name="actionWeightStabilityIntervals"/>
+   <addaction name="actionDPOptimality"/>
+   <addaction name="actionSimulatorTechniques"/>
+   <addaction name="separator"/>
+   <addaction name="actionPrinter"/>
+   <addaction name="separator"/>
+   <addaction name="actionLightBulb"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_Workspace">
+   <property name="text">
+    <string>New WorkSpace</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen_Workspace">
+   <property name="text">
+    <string>Open Workspace...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave_WorkSpace">
+   <property name="text">
+    <string>Save WorkSpace</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_WorkSpace_As">
+   <property name="text">
+    <string>Save WorkSpace As...</string>
+   </property>
+  </action>
+  <action name="actionClose_WorkSpace">
+   <property name="text">
+    <string>Close WorkSpace</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionPrint_Preview">
+   <property name="text">
+    <string>Print Preview</string>
+   </property>
+  </action>
+  <action name="actionPrint_Setup">
+   <property name="text">
+    <string>Print Setup</string>
+   </property>
+  </action>
+  <action name="actionSave_Results_to_File">
+   <property name="text">
+    <string>Save Results to File</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSave_File_As">
+   <property name="text">
+    <string>Save File As</string>
+   </property>
+  </action>
+  <action name="actionComponent_Utilities_File">
+   <property name="text">
+    <string>Component Utilities File...</string>
+   </property>
+  </action>
+  <action name="actionAlt_Consequences_File">
+   <property name="text">
+    <string>Alt. Consequences File...+</string>
+   </property>
+  </action>
+  <action name="actionWeights_File">
+   <property name="text">
+    <string>Weights File...</string>
+   </property>
+  </action>
+  <action name="actionView_Component_Utilities">
+   <property name="text">
+    <string>View Component Utilities</string>
+   </property>
+  </action>
+  <action name="actionView_Alt_Consequences">
+   <property name="text">
+    <string>View Alt. Consequences</string>
+   </property>
+  </action>
+  <action name="actionView_Alt_Classification">
+   <property name="text">
+    <string>View Alt. Classification</string>
+   </property>
+  </action>
+  <action name="actionWeight_Stability_Intervals">
+   <property name="text">
+    <string>Weight Stability Intervals</string>
+   </property>
+  </action>
+  <action name="actionDominance_Potential_Optimality">
+   <property name="text">
+    <string>Dominance/Potential Optimality</string>
+   </property>
+  </action>
+  <action name="actionSimulation_Techniques_for_SA">
+   <property name="text">
+    <string>Simulation Techniques for SA</string>
+   </property>
+  </action>
+  <action name="actionNewWorkspace">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/hammer--plus.png</normaloff>images/hammer--plus.png</iconset>
+   </property>
+   <property name="text">
+    <string>NewWorkspace</string>
+   </property>
+  </action>
+  <action name="actionExistingWorkspace">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/folder.png</normaloff>images/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>ExistingWorkspace</string>
+   </property>
+  </action>
+  <action name="actionSaveWorkspace">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/disk-black.png</normaloff>images/disk-black.png</iconset>
+   </property>
+   <property name="text">
+    <string>SaveWorkspace</string>
+   </property>
+  </action>
+  <action name="actionViewComponentUtilities">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/application-wave.png</normaloff>images/application-wave.png</iconset>
+   </property>
+   <property name="text">
+    <string>ViewComponentUtilities</string>
+   </property>
+  </action>
+  <action name="actionAltConsequences">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/application-detail.png</normaloff>images/application-detail.png</iconset>
+   </property>
+   <property name="text">
+    <string>AltConsequences</string>
+   </property>
+  </action>
+  <action name="actionAltClassification">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/chart.png</normaloff>images/chart.png</iconset>
+   </property>
+   <property name="text">
+    <string>AltClassification</string>
+   </property>
+  </action>
+  <action name="actionWeightStabilityIntervals">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/ui-slider-050.png</normaloff>images/ui-slider-050.png</iconset>
+   </property>
+   <property name="text">
+    <string>WeightStabilityIntervals</string>
+   </property>
+  </action>
+  <action name="actionDPOptimality">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/script-attribute-s.png</normaloff>images/script-attribute-s.png</iconset>
+   </property>
+   <property name="text">
+    <string>DPOptimality</string>
+   </property>
+  </action>
+  <action name="actionSimulatorTechniques">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/layers-alignment-middle.png</normaloff>images/layers-alignment-middle.png</iconset>
+   </property>
+   <property name="text">
+    <string>SimulatorTechniques</string>
+   </property>
+  </action>
+  <action name="actionPrinter">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/printer.png</normaloff>images/printer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Printer</string>
+   </property>
+  </action>
+  <action name="actionLightBulb">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/light-bulb.png</normaloff>images/light-bulb.png</iconset>
+   </property>
+   <property name="text">
+    <string>LightBulb</string>
+   </property>
+  </action>
+  <action name="actionGuide">
+   <property name="text">
+    <string>Guide</string>
+   </property>
+  </action>
+  <action name="actionWhat_is_GMAA">
+   <property name="text">
+    <string>What is GMAA</string>
+   </property>
+  </action>
+  <action name="actionCredits">
+   <property name="text">
+    <string>Credits</string>
+   </property>
+  </action>
+  <action name="actionLogOut">
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </action>
+  <action name="actionLog_In_2">
+   <property name="text">
+    <string>Log In</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

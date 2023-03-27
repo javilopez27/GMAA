@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutGMAA</class>
+ <widget class="QMainWindow" name="AboutGMAA">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>741</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About GMAA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #EFEAE6</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="botonOk">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>630</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Open Sans</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;
+  &lt;head/&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;span style=&quot;font-size:12pt; font-family: Open Sans;&quot;&gt;Generic Multi-Attribute Analysis (GMAA)&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>580</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Open Sans 53'; font-size:8pt;&quot;&gt;Versión 2.0&lt;/span&gt; (2023)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>600</y>
+      <width>241</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;
+  &lt;head/&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;span style=&quot;font-size:8pt; font-family: Open Sans Light;&quot;&gt;Web Site http://dia.fi.upm.es/XXX&lt;/span&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imagenHelp">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>541</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/DIATFG.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>736</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images/logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

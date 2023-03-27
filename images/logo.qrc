@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="cct">
+    <file>DIATFG.png</file>
+  </qresource>
+</RCC>

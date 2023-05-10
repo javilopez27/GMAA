@@ -6,142 +6,67 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>702</width>
-    <height>353</height>
+    <width>987</width>
+    <height>571</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>nodeInformation</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QTabWidget" name="tabWidget_5">
+     <widget class="QTabWidget" name="tabWidgetNI">
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
       <property name="styleSheet">
        <string notr="true">Background-color: #EFEAE6</string>
       </property>
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <widget class="QWidget" name="tab_25">
+      <widget class="QWidget" name="LeafInformation">
        <attribute name="title">
         <string>Leaf Information</string>
        </attribute>
        <widget class="QLabel" name="label_25">
         <property name="geometry">
          <rect>
-          <x>20</x>
+          <x>24</x>
           <y>12</y>
-          <width>41</width>
-          <height>16</height>
+          <width>81</width>
+          <height>21</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
         </property>
         <property name="text">
          <string>Name:</string>
         </property>
        </widget>
-       <widget class="QGroupBox" name="groupBox_5">
-        <property name="geometry">
-         <rect>
-          <x>390</x>
-          <y>10</y>
-          <width>271</width>
-          <height>191</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">Background-color: #EFEAE6</string>
-        </property>
-        <property name="title">
-         <string>Attribute</string>
-        </property>
-        <widget class="QLabel" name="label_26">
-         <property name="geometry">
-          <rect>
-           <x>40</x>
-           <y>40</y>
-           <width>41</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>Units:</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_27">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>110</y>
-           <width>71</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>Min. Range</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_28">
-         <property name="geometry">
-          <rect>
-           <x>170</x>
-           <y>110</y>
-           <width>71</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>Max. Range</string>
-         </property>
-        </widget>
-        <widget class="QPlainTextEdit" name="textMinRange">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>130</y>
-           <width>71</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: #FFFFFF</string>
-         </property>
-        </widget>
-        <widget class="QPlainTextEdit" name="textMaxRange">
-         <property name="geometry">
-          <rect>
-           <x>170</x>
-           <y>130</y>
-           <width>71</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: #FFFFFF</string>
-         </property>
-        </widget>
-        <widget class="QPlainTextEdit" name="textUnits">
-         <property name="geometry">
-          <rect>
-           <x>30</x>
-           <y>60</y>
-           <width>211</width>
-           <height>31</height>
-          </rect>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: #FFFFFF</string>
-         </property>
-        </widget>
-       </widget>
        <widget class="QLabel" name="label_30">
         <property name="geometry">
          <rect>
-          <x>210</x>
+          <x>400</x>
           <y>10</y>
-          <width>41</width>
-          <height>16</height>
+          <width>61</width>
+          <height>21</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
         </property>
         <property name="text">
          <string>Label: </string>
@@ -151,10 +76,16 @@
         <property name="geometry">
          <rect>
           <x>20</x>
-          <y>30</y>
-          <width>171</width>
-          <height>31</height>
+          <y>39</y>
+          <width>351</width>
+          <height>35</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>10</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: #FFFFFF</string>
@@ -163,11 +94,17 @@
        <widget class="QPlainTextEdit" name="textLabel">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>30</y>
-          <width>171</width>
-          <height>31</height>
+          <x>395</x>
+          <y>39</y>
+          <width>341</width>
+          <height>36</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>10</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: #FFFFFF</string>
@@ -177,10 +114,16 @@
         <property name="geometry">
          <rect>
           <x>19</x>
-          <y>94</y>
-          <width>361</width>
-          <height>91</height>
+          <y>111</y>
+          <width>717</width>
+          <height>208</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>10</pointsize>
+         </font>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: #FFFFFF</string>
@@ -189,14 +132,446 @@
        <widget class="QLabel" name="label_29">
         <property name="geometry">
          <rect>
-          <x>20</x>
-          <y>71</y>
-          <width>68</width>
-          <height>16</height>
+          <x>25</x>
+          <y>80</y>
+          <width>141</width>
+          <height>21</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
         </property>
         <property name="text">
          <string>Description:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="LeafAttribute">
+       <attribute name="title">
+        <string>Leaf Attribute</string>
+       </attribute>
+       <widget class="QRadioButton" name="radioBCont">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>11</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>CONTINUOUS</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioBDisc">
+        <property name="geometry">
+         <rect>
+          <x>665</x>
+          <y>11</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>DISCRETE </string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>463</width>
+          <height>422</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>9</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">Background-color: #EFEAE6</string>
+        </property>
+        <property name="title">
+         <string>Attribute</string>
+        </property>
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>19</x>
+           <y>152</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Units:</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>102</x>
+           <y>307</y>
+           <width>91</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Min. Range</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>257</x>
+           <y>307</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Max. Range</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="textMinRangeCont">
+         <property name="geometry">
+          <rect>
+           <x>98</x>
+           <y>330</y>
+           <width>91</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #FFFFFF</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="textMaxRangeCont">
+         <property name="geometry">
+          <rect>
+           <x>259</x>
+           <y>330</y>
+           <width>89</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #FFFFFF</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="textUnitsCont">
+         <property name="geometry">
+          <rect>
+           <x>14</x>
+           <y>176</y>
+           <width>435</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #FFFFFF</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="textDescCont">
+         <property name="geometry">
+          <rect>
+           <x>14</x>
+           <y>55</y>
+           <width>436</width>
+           <height>80</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #FFFFFF</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>32</y>
+           <width>121</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Description:</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioBMPI">
+         <property name="geometry">
+          <rect>
+           <x>86</x>
+           <y>370</y>
+           <width>111</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Most prefered</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioBMPS">
+         <property name="geometry">
+          <rect>
+           <x>246</x>
+           <y>370</y>
+           <width>121</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Most prefered</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>508</x>
+          <y>31</y>
+          <width>441</width>
+          <height>420</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">Background-color: #EFEAE6</string>
+        </property>
+        <property name="title">
+         <string>Attribute</string>
+        </property>
+        <widget class="QLabel" name="label_38">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>144</y>
+           <width>241</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Number of attribute values:</string>
+         </property>
+        </widget>
+        <widget class="QPlainTextEdit" name="textDescDisc">
+         <property name="geometry">
+          <rect>
+           <x>15</x>
+           <y>54</y>
+           <width>415</width>
+           <height>79</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: #FFFFFF</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_41">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>25</y>
+           <width>151</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Description:</string>
+         </property>
+        </widget>
+        <widget class="QSpinBox" name="spinBoxDiscrete">
+         <property name="geometry">
+          <rect>
+           <x>254</x>
+           <y>143</y>
+           <width>48</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="maximum">
+          <number>10</number>
+         </property>
+         <property name="value">
+          <number>1</number>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableDiscrete">
+         <property name="geometry">
+          <rect>
+           <x>16</x>
+           <y>174</y>
+           <width>411</width>
+           <height>231</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="columnCount">
+          <number>0</number>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="buttonEnter">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>139</y>
+           <width>86</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Enter</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="Line" name="line">
+        <property name="geometry">
+         <rect>
+          <x>483</x>
+          <y>13</y>
+          <width>15</width>
+          <height>434</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
         </property>
        </widget>
       </widget>
@@ -209,6 +584,168 @@
        <attribute name="title">
         <string>Viewing Alternative Consequences</string>
        </attribute>
+       <widget class="QTableWidget" name="tableWidgetVAC">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>911</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+         </font>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxVAC">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>40</y>
+          <width>401</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QRadioButton" name="radioBMaximumVAC">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>10</y>
+           <width>119</width>
+           <height>36</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Maximum</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioBAverageVAC">
+         <property name="geometry">
+          <rect>
+           <x>149</x>
+           <y>10</y>
+           <width>117</width>
+           <height>36</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Average</string>
+         </property>
+        </widget>
+        <widget class="QRadioButton" name="radioBMinimumVAC">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>10</y>
+           <width>110</width>
+           <height>36</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Minimum</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButtonVAC">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>288</y>
+          <width>366</width>
+          <height>36</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Modify Alternative for this attribute</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxVAC_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>347</y>
+          <width>631</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+         </font>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>251</x>
+           <y>30</y>
+           <width>181</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>8</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string> in the View menu</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>44</x>
+           <y>4</y>
+           <width>564</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Neue Haas Grotesk Text Pro Extr</family>
+           <pointsize>8</pointsize>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>Alternative consequences can be also changed by clicking the &quot;View Alt. Consequences&quot; option</string>
+         </property>
+        </widget>
+       </widget>
       </widget>
       <widget class="QWidget" name="tab_28">
        <attribute name="title">
@@ -244,13 +781,25 @@
       </item>
       <item>
        <widget class="QPushButton" name="buttonApply">
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="text">
-         <string>Apply</string>
+         <string>Save</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="buttonCancel">
+        <property name="font">
+         <font>
+          <family>Neue Haas Grotesk Text Pro Extr</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>Cancel</string>
         </property>
@@ -265,7 +814,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>702</width>
+     <width>987</width>
      <height>26</height>
     </rect>
    </property>

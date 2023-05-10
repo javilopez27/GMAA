@@ -88,9 +88,15 @@
     <addaction name="separator"/>
     <addaction name="actionLogOut"/>
    </widget>
+   <widget class="QMenu" name="menuEvaluation">
+    <property name="title">
+     <string>Evaluation</string>
+    </property>
+   </widget>
    <addaction name="menuWorkspace"/>
    <addaction name="menuFile"/>
    <addaction name="menuView"/>
+   <addaction name="menuEvaluation"/>
    <addaction name="menuSensitivity"/>
    <addaction name="menuWindow"/>
    <addaction name="menuHelp"/>

@@ -44,81 +44,11 @@
      <bool>true</bool>
     </attribute>
    </widget>
-   <widget class="QGroupBox" name="groupBox">
-    <property name="geometry">
-     <rect>
-      <x>27</x>
-      <y>407</y>
-      <width>401</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="title">
-     <string/>
-    </property>
-    <widget class="QRadioButton" name="radioBMaximum">
-     <property name="geometry">
-      <rect>
-       <x>270</x>
-       <y>10</y>
-       <width>119</width>
-       <height>36</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Neue Haas Grotesk Text Pro Extr</family>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Maximum</string>
-     </property>
-    </widget>
-    <widget class="QRadioButton" name="radioBAverage">
-     <property name="geometry">
-      <rect>
-       <x>146</x>
-       <y>10</y>
-       <width>119</width>
-       <height>36</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Neue Haas Grotesk Text Pro Extr</family>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Average</string>
-     </property>
-    </widget>
-    <widget class="QRadioButton" name="radioBMinimum">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>10</y>
-       <width>110</width>
-       <height>36</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Neue Haas Grotesk Text Pro Extr</family>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Minimum</string>
-     </property>
-    </widget>
-   </widget>
    <widget class="QPushButton" name="pushButtonOkAC">
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>480</y>
+      <y>450</y>
       <width>121</width>
       <height>28</height>
      </rect>
@@ -145,7 +75,7 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>480</y>
+      <y>450</y>
       <width>121</width>
       <height>28</height>
      </rect>

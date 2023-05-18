@@ -1,0 +1,12 @@
+<Project_GMAA>
+    <Node text="Ov. Objective" cRow="2" cColumn="0" id="0" label_name="Ov.Objective/PO Label0"
+        posArray="0" connections="[LabelNode(Label1)]" nodeDescription="" padre="None" unitType="" />
+    <Node text="Label1" cRow="0" cColumn="2" id="1" label_name="Label1" posArray="1"
+        connections="[]"
+        nodeDescription="Padre: LabelNode(Ov. Objective)&#10;Generaci&#243;n: 1&#10;cRow: 0&#10;cColumn: 2&#10;weightI: 1.0&#10;weightIS: 1.0&#10;Final Nodes: [LabelNode(Label1)]&#10;Alternatives: []&#10;Attributes: [LabelNode(Label1)]&#10;AttributesNames: ['Label1']"
+        padre="LabelNode(Ov. Objective)" unitType="Discrete" unitDescription="ADF"
+        optionsList="['Attribute 1', 'Attribute 2']" />
+    <Alternative name="Alt 1" desc="Alternative 1">
+        <DiscreteAttribute attributenames="Attribute 1,Attribute 2" selected="Attribute 2" />
+    </Alternative>
+</Project_GMAA>

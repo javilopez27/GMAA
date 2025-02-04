@@ -44,13 +44,13 @@ El backend está construido en Python y contiene múltiples clases y funciones p
   - `on_combo_box_changed()`, `create_table()`, `disable_discrete()`, `disable_continuous()`
   - `mousePressEvent()`, `mouseMoveEvent()`, `mouseReleaseEvent()`
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **Lenguaje de Programación**: Python
 - **Frameworks y Bibliotecas**: PyQt, Pandas, Numpy
 - **Bases de Datos**: SQLite / PostgreSQL (según implementación)
 - **Otras Herramientas**: Git, Docker, Jenkins
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 ### 1️ **Clonar el Repositorio**
 ```bash
  git clone https://github.com/tuusuario/gmaa.git

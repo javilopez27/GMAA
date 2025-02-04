@@ -1,6 +1,6 @@
 # GMAA - Sistema Web de Apoyo a la Toma de Decisiones
 
-## 📌 Descripción
+## Descripción
 GMAA es un sistema web basado en la **Teoría de la Utilidad Multiatributo (MAUT)** que asiste en la toma de decisiones considerando la **imprecisión de las preferencias** de los decisores y la **incertidumbre** sobre las consecuencias de las alternativas disponibles.
 
 El sistema se basa en la integración de **métodos de decisión multicriterio**, incluyendo:
@@ -8,16 +8,16 @@ El sistema se basa en la integración de **métodos de decisión multicriterio**
 - **OUTRANKING METHODS**
 - **AHP** (Analytic Hierarchy Process)
 
-## 🎯 Objetivos del Proyecto
+## Objetivos del Proyecto
 ✔ **Readaptación e implementación** de la teoría de decisión multicriterio.
 ✔ **Mejorar la eficiencia** del sistema.
 ✔ **Optimizar la interfaz de usuario**.
 ✔ **Desarrollar estructuras más intuitivas**.
 
-## 🏗️ Arquitectura Backend
+## Arquitectura Backend
 El backend está construido en Python y contiene múltiples clases y funciones para la gestión de atributos, alternativas y nodos en el sistema. La estructura principal incluye:
 
-### **📂 app.py - Estructura del Código**
+### **app.py - Estructura del Código**
 - **Constantes**: `PrimaryObjective`, `Branch`, `Leaf`, `identifier_labels`, `currentRow`, `currentColumn`, `attributes`, `attributesnames`, `alternatives`, `root`.
 - **Clases Principales**:
   - `MyWidget`

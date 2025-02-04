@@ -1,7 +1,7 @@
 # GMAA - Sistema Web de Apoyo a la Toma de Decisiones
 
 ## Descripción
-GMAA es un sistema web basado en la **Teoría de la Utilidad Multiatributo (MAUT)** que asiste en la toma de decisiones considerando la **imprecisión de las preferencias** de los decisores y la **incertidumbre** sobre las consecuencias de las alternativas disponibles.
+GMAA es una aplicación de escritorio basada en la **Teoría de la Utilidad Multiatributo (MAUT)** que asiste en la toma de decisiones considerando la **imprecisión de las preferencias** de los decisores y la **incertidumbre** sobre las consecuencias de las alternativas disponibles.
 
 El sistema se basa en la integración de **métodos de decisión multicriterio**, incluyendo:
 - **MAUT** (Multi-Attribute Utility Theory)

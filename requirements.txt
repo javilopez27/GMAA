@@ -1,0 +1,17 @@
+PyQt6
+
+PyQt6-Charts
+
+PyQt6-PrintSupport
+
+networkx
+
+xml.etree.ElementTree
+
+os
+
+math
+
+re
+
+ast

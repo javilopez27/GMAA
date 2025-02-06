@@ -83,4 +83,4 @@ Si deseas contribuir al desarrollo de **GMAA**, ¡eres bienvenido! Por favor, si
 
 ---
 **Autor**: Javier López Palacios  
-**Última actualización**: Febrero 2019
+**Última actualización**: Febrero 2022
